@@ -13,7 +13,7 @@ background: linear-gradient(to right, #fff 0%, #fff 100%);
     overflow-y:auto;
     white-space:nowrap;
     min-width:280px;
-    position:relative;
+    position:absolute;
     text-align:center;
     color:#000;
     width:100%;
