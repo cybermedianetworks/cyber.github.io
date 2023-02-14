@@ -1,0 +1,89 @@
+div.JatraSEO {
+	
+/* Code Color */
+background: -webkit-gradient(linear, left top, right top, color-stop(0, #fff), color-stop(1, #fff));
+background: -webkit-linear-gradient(left, #fff 0%, #fff 100%);
+background: -moz-linear-gradient(left, #fff 0%, #fff 100%);
+background: -o-linear-gradient(left, #fff 0%, #fff 100%);
+background: -ms-linear-gradient(left, #fff 0%, #fff 100%);
+background: linear-gradient(to right, #fff 0%, #fff 100%);
+
+/* Code Style */
+    overflow-x:auto;
+    overflow-y:hidden;
+    white-space:nowrap;
+    min-width:280px;
+    position:static;
+    text-align:center;
+    color:#FFFFFF;
+    width:auto;
+    height:1px;
+    border-width:1px;
+    border-color:#fff;
+    border-style:solid;
+    padding:1em;
+    font-family:Arial, sans-serif;
+    font-size:11px;
+    line-height:1px;
+}
+a.Link:link {
+text-decoration:blink;color:#000;
+}
+a.Link:visited {
+color:#000;
+}
+a.Link:hover {
+color:#FF0000;
+}
+a.Link:active {
+color:#FF0000;
+}
+<script>// To disable right click
+document.addEventListener('contextmenu', event => event.preventDefault());
+
+// To disable F12 options
+document.onkeypress = function (event) {
+event = (event || window.event);
+if (event.keyCode == 123) {
+return false;
+}
+}
+document.onmousedown = function (event) {
+event = (event || window.event);
+if (event.keyCode == 123) {
+return false;
+}
+}
+document.onkeydown = function (event) {
+event = (event || window.event);
+if (event.keyCode == 123) {
+return false;
+}
+}
+
+// To Disable ctrl+c, ctrl+u
+
+jQuery(document).ready(function($){
+$(document).keydown(function(event) {
+var pressedKey = String.fromCharCode(event.keyCode).toLowerCase();
+
+if (event.ctrlKey && (pressedKey == "c" || pressedKey == "u")) {
+alert('Sorry, This Functionality Has Been Disabled!');
+//disable key press porcessing
+return false;
+}
+});
+});
+
+// To Disable ctrl+shift+ij
+window.oncontextmenu = function () {
+            return false;
+        }
+        $(document).keydown(function (event) {
+            if (event.keyCode == 123) {
+                return false;
+            }
+            else if ((event.ctrlKey && event.shiftKey && event.keyCode == 73) || (event.ctrlKey && event.shiftKey && event.keyCode == 74)) {
+                return false;
+            }
+        });</script>
