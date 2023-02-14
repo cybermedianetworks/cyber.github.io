@@ -10,7 +10,7 @@ background: linear-gradient(to right, #fff 0%, #fff 100%);
 
 /* Code Style */
     overflow-x:auto;
-    overflow-y:auto;
+    overflow-y:;
     white-space:nowrap;
     min-width:280px;
     position:static;
