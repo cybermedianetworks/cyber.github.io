@@ -26,6 +26,8 @@ https://cybermedianet.web.app
 
 https://sites.google.com/view/cybermedianetworks
 
+https://cybermedianetworks.github.io/
+
 https://cyber-media-networks.blogspot.com
 
 https://cybermedianetworks.weebly.com
