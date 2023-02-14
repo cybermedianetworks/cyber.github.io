@@ -33,10 +33,10 @@ a.Link:visited {
 color:#000;
 }
 a.Link:hover {
-color:#FF0000;
+color:#000;
 }
 a.Link:active {
-color:#FF0000;
+color:#000;
 }
 <script>// To disable right click
 document.addEventListener('contextmenu', event => event.preventDefault());
