@@ -9,11 +9,9 @@ background: -ms-linear-gradient(left, #fff 0%, #fff 100%);
 background: linear-gradient(to right, #fff 0%, #fff 100%);
 
 /* Code Style */
-    overflow-x:auto;
-    overflow-y:auto;
     white-space:nowrap;
     width:100%;
-    min-height:500px;
+    min-height:333px;
     position:relative;
     text-align:center;
     color:#000;
@@ -21,7 +19,7 @@ background: linear-gradient(to right, #fff 0%, #fff 100%);
     border-color:#fff;
     border-style:solid;
     padding:1em;
-    font-family:Arial, sans-serif;
+    font-family:arial, sans-serif;
     font-size:12px;
     line-height:30px;
 }
