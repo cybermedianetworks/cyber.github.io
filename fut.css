@@ -24,7 +24,7 @@ background: linear-gradient(to right, #fff 0%, #fff 100%);
     padding:1em;
     font-family:Arial, sans-serif;
     font-size:11px;
-    line-height:10px;
+    line-height:20px;
 }
 a.Link:link {
 text-decoration:blink;color:#000;
