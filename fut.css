@@ -9,8 +9,8 @@ background: -ms-linear-gradient(left, #fff 0%, #fff 100%);
 background: linear-gradient(to right, #fff 0%, #fff 100%);
 
 /* Code Style */
-    overlow-x:auto;
-    overlow-y:auto;
+    overflow-x:none;
+    overflow-y:none;
     white-space:nowrap;
     min-width:280px;
     position:static;
