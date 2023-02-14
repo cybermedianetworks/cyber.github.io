@@ -14,7 +14,7 @@ background: linear-gradient(to right, #fff 0%, #fff 100%);
     white-space:nowrap;
     min-width:500px;
 	min-height: 500px;
-    position:absolute;
+    position:relative;
     text-align:center;
     color:#000;
     width:100%;
