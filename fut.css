@@ -13,7 +13,7 @@ background: linear-gradient(to right, #fff 0%, #fff 100%);
     min-height:333px;
     position:static;
     text-align:justify;
-    text-justify:auto;
+    text-justify:inter-word;
     color:#000;
     border-width:1px;
     border-color:#fff;
