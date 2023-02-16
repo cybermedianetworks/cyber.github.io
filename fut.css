@@ -11,7 +11,7 @@ background: linear-gradient(to right, #fff 0%, #fff 100%);
 /* Code Style */
     overflow:hidden;
     white-space:nowrap;
-    width:100%;
+    width:1000px;
     min-height:333px;
     position:static;
     text-align:center;
