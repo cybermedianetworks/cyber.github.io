@@ -9,7 +9,7 @@ background: -ms-linear-gradient(left, #fff 0%, #fff 100%);
 background: linear-gradient(to right, #fff 0%, #fff 100%);
 
 /* Code Style */
-    width:100%;
+    allowfullscreen:true;
     min-height:333px;
     position:static;
     text-align:center;
