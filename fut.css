@@ -9,10 +9,12 @@ background: -ms-linear-gradient(left, #fff 0%, #fff 100%);
 background: linear-gradient(to right, #fff 0%, #fff 100%);
 
 /* Code Style */
+    overflow-x:auto;
+    overflow-y:hidden;
     white-space:nowrap;
     width:100%;
     min-height:333px;
-    position:absolute;
+    position:static;
     text-align:center;
     color:#000;
     border-width:1px;
